@@ -1,0 +1,17 @@
+{
+  "name": "campus-gigs-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "app": "yarn workspace app",
+    "server": "yarn workspace server",
+    "start:app": "yarn workspace app start",
+    "start:server": "yarn workspace server serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
